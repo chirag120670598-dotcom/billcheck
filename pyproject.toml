@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "billcheck"
+version = "0.1.0"
+description = "Check whether an Indian GST invoice adds up — offline, free, and in any script."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "billcheck contributors" }]
+keywords = ["gst", "invoice", "india", "tally", "audit", "accounting", "pdf"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Natural Language :: Hindi",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+
+# pypdf is the only hard dependency, and only PDFs need it. A text invoice
+# goes through the same parser with nothing installed at all.
+dependencies = ["pypdf>=3.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "reportlab>=3.6"]
+
+[project.scripts]
+billcheck = "billcheck.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/billcheck/billcheck"
+
+[tool.setuptools]
+packages = ["billcheck"]
+
+[tool.setuptools.package-data]
+billcheck = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["error::DeprecationWarning"]

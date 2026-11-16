@@ -1,0 +1,15 @@
+TAX INVOICE
+Shreeji Trading Company
+GSTIN: 24AAPFU0939F1Z1
+Invoice No: STC/2026-27/0501
+Invoice Date: 21 October 2026
+Buyer: Patel Traders
+Buyer GSTIN: 24AABCP5555F1ZK
+Place of Supply: Gujarat (24)
+Sr   Description   HSN   Qty   Rate   Taxable   GST%
+1   Cotton Fabric 40s   5208   10   450.00   4500.00   5
+2   Polyester Thread   5402   5   180.00   900.00   12
+Taxable Value: 5400.00
+CGST: 166.50   SGST: 166.50
+Invoice Total: 5733.00
+Amount in words: Five Thousand Seven Hundred Thirty Three Only

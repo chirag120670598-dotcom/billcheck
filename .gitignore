@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+*.log
+
+# Local output, not source.
+out/
+register.csv
+lines.csv
+report.json
+review.md

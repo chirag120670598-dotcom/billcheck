@@ -1,0 +1,11 @@
+कर बीजक  /  TAX INVOICE
+Shreeji Trading Company
+GSTIN: 24AAPFU0939F1Z1
+Invoice No: STC/2026-27/0500
+Invoice Date: 20 October 2026
+Buyer: Patel Traders
+Buyer GSTIN: 24AABCP5555F1ZK
+Place of Supply: Gujarat (24)
+कुल कर योग्य मूल्य: २,४००.००
+CGST: ६०.००   SGST: ६०.००
+Invoice Total: २,५२०.००
